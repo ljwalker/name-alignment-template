@@ -19,9 +19,7 @@ datasets:
     - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
       enabled: false
       type: application/dwca
-    - url: https://scan-bugs.org:443/portal/webservices/dwc/rss.xml 
-      enabled: false
-      type: application/rss+xml
+      
 # 
 taxonomies:
 #
