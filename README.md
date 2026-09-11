@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: Alsos-et-al-2022-taxonomyComparison-2026-09-11_toAlignAlsosetal2022FinalsedaDNA.csv
+    - url: Alsos-et-al-2022-taxonomyComparison-2026-09-11_toAligndataArtifacts_examplesFile_DNASequences.csv
       enabled: true
       type: text/csv
     - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
