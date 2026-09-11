@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
+    - url: Alsos-et-al-2022-taxonomyComparison-2026-09-11_toAlign.csv
       enabled: true
       type: text/csv
     - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
@@ -46,22 +46,22 @@ taxonomies:
       enabled: false
       name: Bat Names 
     - id: col
-      enabled: false
+      enabled: true
       name: Catalogue of Life
     - id: eol
       enabled: true
       name: Encyclopedia of Life Dynamic Hierarchy
     - id: gbif
-      enabled: false
+      enabled: true
       name: GBIF Backbone Taxonomy
     - id: worms
-      enabled: true
+      enabled: false
       name: World Register of Marine Species
     - id: globi
       enabled: false
       name: GloBI Taxon Graph
     - id: indexfungorum
-      enabled: false
+      enabled: true
       name: Index Fungorum
     - id: mdd
       enabled: false
@@ -70,25 +70,25 @@ taxonomies:
       enabled: false
       name: Open Tree of Life Taxonomy
     - id: pbdb
-      enabled: false
+      enabled: true
       name: Paleobiology Database
     - id: plazi
-      enabled: false
+      enabled: true
       name: Plazi Treatments
     - id: tpt
       enabled: false
       name: Terrestrial Parasite Tracker Taxonomies
     - id: wfo
-      enabled: false
+      enabled: true
       name: World of Flora Online
     - id: wikidata
       enabled: true
       name: Wikidata Taxon Items
     - id: moure
-      enabled: true
+      enabled: false
       name: Moure Classification
     - id: irmng
-      enabled: true
+      enabled: false
       name: Interim Registry of Marine and Nonmarine Genera
 ---
 
